@@ -1,6 +1,6 @@
 var n = navigator.getBattery().then((n)=>{
     
-    document.write("Charge "+n.level+"%");
+    document.write("Charge "+n.level*100+"%");
 });
 
 
